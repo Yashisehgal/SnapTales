@@ -12,6 +12,7 @@ import PostCard from "./PostCard";
 import AuthLayout from "./AuthLayout";
 import Input from "./Input";
 import Select from "./Select";
+import Background from "./Background";
 export {
   Header,
   Footer,
@@ -27,4 +28,5 @@ export {
   AuthLayout,
   Input,
   Select,
+  Background,
 };
