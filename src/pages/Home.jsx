@@ -8,7 +8,11 @@ function Home() {
   useEffect(() => {
     appwriteService.getPosts().then((posts) => {
       if (posts) {
-        setPosts(posts.documents);
+        const activePosts = posts.documents.filter(
+          (post) => post.status === "active"
+        );
+        setPosts(activePosts);
+        // setPosts(posts.documents);
       }
     });
   }, []);

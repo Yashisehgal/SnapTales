@@ -21,9 +21,9 @@ function Footer() {
                 <li className="p-5">
                   <a
                     className="font-medium text-gray-600 hover:text-gray-700"
-                    href="#"
+                    href="https://www.linkedin.com/in/yashi-sehgal/"
                   >
-                    Privacy Policy
+                    Linkedln
                   </a>
                 </li>
                 <li className="p-5">
@@ -37,9 +37,9 @@ function Footer() {
                 <li className="p-5">
                   <a
                     className="font-medium text-gray-600 hover:text-gray-700"
-                    href="#"
+                    href="https://github.com/Yashisehgal"
                   >
-                    Return Policy
+                    Github
                   </a>
                 </li>
                 <li className="p-5">
